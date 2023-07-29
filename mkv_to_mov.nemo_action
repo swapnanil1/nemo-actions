@@ -1,7 +1,7 @@
 [Nemo Action]
 Name=Convert MKV/MP4 to MOV
 Comment=Convert MKV/MP4 to MOV
-Exec=ffmpeg -i %F -map 0:0 -map 0:1 -vcodec mjpeg -q:v 2 -acodec pcm_s24le -q:a 0 -f mov %F.mov
+Exec=ffmpeg -i %F -map 0:0 -map 0:1 -vcodec prores -q:v 2 -acodec pcm_s24le -q:a 0 -f mov %F.mov
 Icon-Name=
 Selection=mkv;mp4;
 Extensions=mkv;mp4;

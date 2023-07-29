@@ -1,0 +1,7 @@
+[Nemo Action]
+Name=Convert MOV to MP4 
+Comment=Convert MOV to MP4 
+Exec=ffmpeg -i %F -c:v libx264 -preset veryslow -crf 0 %F.mp4
+Icon-Name=
+Selection=mov;
+Extensions=mov;
